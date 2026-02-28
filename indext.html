@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Pad </title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/686/686112.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Note Pad</div>
+        <button id="addTaskBtn" class="btn">Add new Task</button>
+    </nav>
+    <main>
+        <section>
+            <div id="todo" class="collam">
+                <div class="heading">
+                    <h3>To Do</h3>
+                    <p id="count">Count</p>
+                </div>
+            </div>
+
+            <div id="progress" class="collam">
+                <div class="heading">
+                    <h3>Progress</h3>
+                    <p id="count">Count</p>
+                </div>
+            </div>
+
+            <div id="done" class="collam">
+                <div class="heading">
+                    <h3>Done</h3>
+                    <p id="count">Count</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Input  -->
+    <div class="modal">
+        <div class="bg"></div>
+        <div class="contaner">
+            <input type="text" id="input" placeholder="Enter Title" />
+            <textarea name="" placeholder="Enter Description" id="textarea"></textarea>
+            <button id="addTodoBtn" class="btn">Add Task</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
